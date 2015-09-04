@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+﻿<addon id="plugin.video.pelisalacarta"
+    name="pelisalacarta"
+    version="4.0.3"
+    provider-name="dentaku65">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Movies and TV Shows Italian channels repack</summary>
+    <description lang="en">Pelisalacarta with italian channels repack: Zanzibar82, dentaku65, Dr-Zer0 and fenice82. BIG thanks: robalo, jesus</description>
+    <platform>all</platform>
+  </extension>
+  <extension point="xbmc.service" library="library_service.py" start="login|startup">
+  </extension>
+</addon>
+</addons>
+﻿
